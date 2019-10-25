@@ -53,8 +53,14 @@ fi
 :ambulance:
 
 ```
+:seedling: arrow_notation.sh
 ```sh
+$ read first second <<< "hello world"
+$ echo $second $first
+world hello
 
+
+// #######################
 <<< denotes here is a string.
 $ cat <<< 'Hello world'
 Hello world
